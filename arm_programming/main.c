@@ -12,30 +12,9 @@ void mcu_setup(void);
 void delay(volatile int iterations);
 
 
-typedef struct {
-    uint16_t x;
-    uint8_t  y;
-} Point;
-
-typedef struct {
-    Point top_left;
-    Point bottom_right;
-} Window;
-
-typedef struct {
-    Point corners[3];
-} Triangle;
-
-Point p1, p2;
-Window w;
-Triangle t;
-
 /* entry point */
 int main()
 {
-    p1.x = sizeof(Point);
-    p1.y = 0xAAU;
-    
     mcu_setup();
     
     // turn on the blue led
