@@ -1,0 +1,1237 @@
+###############################################################################
+#
+# IAR ELF Dumper V8.50.1.245 for ARM                      19/Apr/2020  19:13:21
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Input file   =  W:\playground\arm_programming\Debug\Obj\main.o
+#    Command line =  --all playground\arm_programming\Debug\Obj\main.o
+#
+###############################################################################
+
+  32-bit little-endian relocatable ELF file for Advanced RISC Machines ARM
+
+    File version 1, header size 52, section header string section #1.
+    Flags 0x500'0000 (ARM ELF revision 5 [AAELF 2.0])
+    Entry 0x0
+
+    59 section headers, each 40 bytes, at offset 0x163d
+
+  SECTIONS:
+
+      Name                Type     Offset  Size Aln Lnk Inf ESz Flags
+      ----                ----     ------  ---- --- --- --- --- -----
+   1: .shstrtab           strtab     0x34 0x18e
+   2: .symtab             symtab    0x1c2 0x270       3  36  16
+   3: .strtab             strtab    0x432 0x1de
+   4: .comment            pbits     0x610 0x252
+   5: .iar.rtmodel        pbits     0x862  0x47
+   6: .debug_line         pbits     0x8a9 0x1f9
+   7: .debug_info         pbits     0xaa2  0x90
+   8: .text               pbits     0xb32  0x80 0x4             0x6  AX
+   9: .iar_vfe_header     pbits     0xbb2   0x4 0x4
+  10: .iar.stackusage     pbits     0xbb6  0x16
+  11: .iar.debug_line     pbits     0xbcc  0x86
+  12: .debug_line         pbits     0xc52  0x7c
+  13: .debug_info         pbits     0xcce  0xb2
+  14: .debug_frame        pbits     0xd80  0x17
+  15: .debug_frame        pbits     0xd97  0x5c
+  16: .rel.debug_frame    rel       0xdf3  0x10       2  14   8
+  17: .rel.iar.stackusage rel       0xe03  0x40       2  10   8
+  18: .iar.debug_line     pbits     0xe43  0x58
+  19: .debug_line         pbits     0xe9b  0x7a
+  20: .debug_info         pbits     0xf15  0xb3
+  21: .debug_frame        pbits     0xfc8  0x10
+  22: .rel.debug_frame    rel       0xfd8  0x10       2  21   8
+  23: .iar.debug_line     pbits     0xfe8  0x59
+  24: .debug_line         pbits    0x1041  0x7a
+  25: .debug_info         pbits    0x10bb  0xc7
+  26: .debug_frame        pbits    0x1182  0x16
+  27: .rel.debug_frame    rel      0x1198  0x10       2  26   8
+  28: .ARM.attributes     arm_attr 0x11a8  0x54
+  29: .debug_loc          pbits    0x11fc  0x20
+  30: .debug_loc          pbits    0x121c  0x14
+  31: .debug_loc          pbits    0x1230  0x4b
+  32: .debug_abbrev       pbits    0x127b  0x8d
+  33: .rel.debug_info     rel      0x1308  0x48       2  13   8
+  34: .debug_pubnames     pbits    0x1350  0x1b
+  35: .rel.debug_pubnames rel      0x136b   0x8       2  34   8
+  36: .debug_aranges      pbits    0x1373  0x1c
+  37: .rel.debug_aranges  rel      0x138f  0x10       2  36   8
+  38: .rel.debug_info     rel      0x139f  0x40       2  20   8
+  39: .debug_pubnames     pbits    0x13df  0x20
+  40: .rel.debug_pubnames rel      0x13ff   0x8       2  39   8
+  41: .debug_aranges      pbits    0x1407  0x1c
+  42: .rel.debug_aranges  rel      0x1423  0x10       2  41   8
+  43: .rel.debug_info     rel      0x1433  0x50       2  25   8
+  44: .debug_pubnames     pbits    0x1483  0x1c
+  45: .rel.debug_pubnames rel      0x149f   0x8       2  44   8
+  46: .debug_aranges      pbits    0x14a7  0x1c
+  47: .rel.debug_aranges  rel      0x14c3  0x10       2  46   8
+  48: .debug_macinfo      pbits    0x14d3  0x3d
+  49: .rel.debug_info     rel      0x1510  0x18       2   7   8
+  50: .rel.debug_line     rel      0x1528   0x8       2  12   8
+  51: .rel.iar.debug_line rel      0x1530  0x20       2  11   8
+  52: .rel.debug_line     rel      0x1550   0x8       2  19   8
+  53: .rel.iar.debug_line rel      0x1558  0x10       2  18   8
+  54: .rel.debug_line     rel      0x1568   0x8       2  24   8
+  55: .rel.iar.debug_line rel      0x1570  0x10       2  23   8
+  56: .rel.text           rel      0x1580  0x58       2   8   8
+  57: .iar.fraginfo       pbits    0x15d8   0xd
+  58: .rel.iar.fraginfo   rel      0x15e5  0x58       2  57   8
+
+
+-------------------------------------------------------------------------------
+Section #1 .shstrtab:
+
+    0x0:
+    0x1: ".shstrtab"
+    0xb: ".symtab"
+   0x13: ".strtab"
+   0x1b: ".comment"
+   0x24: ".iar.rtmodel"
+   0x31: ".debug_line"
+   0x3d: ".debug_info"
+   0x49: ".text"
+   0x4f: ".iar_vfe_header"
+   0x5f: ".iar.stackusage"
+   0x6f: ".iar.debug_line"
+   0x7f: ".debug_frame"
+   0x8c: ".rel.debug_frame"
+   0x9d: ".rel.iar.stackusage"
+   0xb1: ".ARM.attributes"
+   0xc1: ".debug_loc"
+   0xcc: ".debug_abbrev"
+   0xda: ".rel.debug_info"
+   0xea: ".debug_pubnames"
+   0xfa: ".rel.debug_pubnames"
+  0x10e: ".debug_aranges"
+  0x11d: ".rel.debug_aranges"
+  0x130: ".debug_macinfo"
+  0x13f: ".rel.debug_line"
+  0x14f: ".rel.iar.debug_line"
+  0x163: ".rel.text"
+  0x16d: ".iar.fraginfo"
+  0x17b: ".rel.iar.fraginfo"
+  0x18d: ""
+
+
+-------------------------------------------------------------------------------
+Section #2 .symtab:
+
+  38 symbols, 35 local
+
+      Name                                Value Sec Type Bd Size Group Other
+      ----                                ----- --- ---- -- ---- ----- -----
+   1: C:\Users\Marwan\Desktop\Work\playground\arm_programming\main.c
+                                            0x0 Abs File Lc
+   2: __iar_systems$$module                 0x1 Abs  --  Lc
+   3: .text8                                0x0   8 Sect Lc
+   4: .debug_frame15                        0x0  15 Sect Lc
+   5: $t                                    0x0   8  --  Lc
+   6: .text_3                              0x24   8  --  Lc
+   7: .text_4                              0x4c   8  --  Lc
+   8: $d.32                                0x4c   8  --  Lc
+   9: .text_5                              0x50   8  --  Lc
+  10: .text_6                              0x54   8  --  Lc
+  11: .text_7                              0x58   8  --  Lc
+  12: .text_8                              0x5c   8  --  Lc
+  13: .text_9                              0x60   8  --  Lc
+  14: .text_10                             0x64   8  --  Lc
+  15: .text_11                             0x68   8  --  Lc
+  16: .text_12                             0x6c   8  --  Lc
+  17: $t                                   0x6c   8  --  Lc
+  18: .iar_vfe_header9                      0x0   9 Sect Lc
+  19: $d                                    0x0   9  --  Lc
+  20: .debug_abbrev32                       0x0  32 Sect Lc
+  21: .debug_info7                          0x0   7 Sect Lc
+  22: .debug_loc29                          0x0  29 Sect Lc
+  23: .debug_line12                         0x0  12 Sect Lc
+  24: .iar.debug_line11                     0x0  11 Sect Lc
+  25: .debug_info13                         0x0  13 Sect Lc
+  26: .debug_loc30                          0x0  30 Sect Lc
+  27: .debug_line19                         0x0  19 Sect Lc
+  28: .iar.debug_line18                     0x0  18 Sect Lc
+  29: .debug_info20                         0x0  20 Sect Lc
+  30: .debug_loc31                          0x0  31 Sect Lc
+  31: .debug_line24                         0x0  24 Sect Lc
+  32: .iar.debug_line23                     0x0  23 Sect Lc
+  33: .debug_info25                         0x0  25 Sect Lc
+  34: .debug_line6                          0x0   6 Sect Lc
+  35: .debug_macinfo48                      0x0  48 Sect Lc
+  36: delay                                0x6d   8 Code Gb 0x14
+  37: main                                  0x1   8 Code Gb 0x24
+  38: mcu_setup                            0x25   8 Code Gb 0x26
+
+
+-------------------------------------------------------------------------------
+Section #3 .strtab:
+
+    0x0:
+    0x1: "C:\Users\Marwan\Desktop\Work\playground\arm_programming\main.c"
+   0x40: "__iar_systems$$module"
+   0x56: ".text8"
+   0x5d: ".debug_frame15"
+   0x6c: "$t"
+   0x6f: ".text_3"
+   0x77: ".text_4"
+   0x7f: "$d.32"
+   0x85: ".text_5"
+   0x8d: ".text_6"
+   0x95: ".text_7"
+   0x9d: ".text_8"
+   0xa5: ".text_9"
+   0xad: ".text_10"
+   0xb6: ".text_11"
+   0xbf: ".text_12"
+   0xc8: ".iar_vfe_header9"
+   0xd9: "$d"
+   0xdc: ".debug_abbrev32"
+   0xec: ".debug_info7"
+   0xf9: ".debug_loc29"
+  0x106: ".debug_line12"
+  0x114: ".iar.debug_line11"
+  0x126: ".debug_info13"
+  0x134: ".debug_loc30"
+  0x141: ".debug_line19"
+  0x14f: ".iar.debug_line18"
+  0x161: ".debug_info20"
+  0x16f: ".debug_loc31"
+  0x17c: ".debug_line24"
+  0x18a: ".iar.debug_line23"
+  0x19c: ".debug_info25"
+  0x1aa: ".debug_line6"
+  0x1b7: ".debug_macinfo48"
+  0x1c8: "delay"
+  0x1ce: "main"
+  0x1d3: "mcu_setup"
+  0x1dd: ""
+
+
+-------------------------------------------------------------------------------
+Section #4 .comment:
+
+  IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM
+  -f C:\Users\Marwan\AppData\Local\Temp\EW47A0.tmp (C:\Users\Marwan\Desktop\Work\playground\arm_programming\main.c -D __FPU_PRESENT -o C:\Users\Marwan\Desktop\Work\playground\arm_programming\Debug\Obj --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --dlib_config "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c\DLib_Config_Normal.h" -I C:\Users\Marwan\Desktop\Work\playground\arm_programming\CMSIS\ -On --require_prototypes)
+
+
+
+-------------------------------------------------------------------------------
+Section #5 .iar.rtmodel:
+
+  __SystemLibrary = DLib
+  __dlib_version  = 6
+  __size_limit    = 32768|ARM.EW.LINKER
+
+
+-------------------------------------------------------------------------------
+Section #6 .debug_line:
+
+  0x0: 501 bytes, utf8, version 2, 495 prologue bytes
+    code factor 1, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+       1:  'C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.4\arm\inc\c'
+       2:  'C:\Users\Marwan\Desktop\Work\playground\arm_programming'
+       3:  'C:\Users\Marwan\Desktop\Work\playground\arm_programming\CMSIS'
+
+    Files:
+       1:  Feb 12 16:14:34 2020    13 li  1  'DLib_Config_Normal.h'
+       2:  Feb 12 16:14:34 2020   599 li  1  'DLib_Defaults.h'
+       3:  Feb 12 16:14:34 2020   114 li  1  'DLib_Product.h'
+       4:  Feb 12 16:14:34 2020   463 li  1  'iccarm_builtin.h'
+       5:  Feb 12 16:14:34 2020   218 li  1  'stdint.h'
+       6:  Feb 12 16:14:34 2020    43 li  1  'ycheck.h'
+       7:  Feb 12 16:14:34 2020   452 li  1  'yvals.h'
+       8:  Nov  5 08:32:14 2019   283 li  3  'cmsis_compiler.h'
+       9:  Nov  5 08:32:14 2019   964 li  3  'cmsis_iccarm.h'
+      10:  Nov  5 08:32:14 2019    39 li  3  'cmsis_version.h'
+      11:  Nov  5 08:32:14 2019  2124 li  3  'core_cm4.h'
+      12:  Nov  5 08:32:14 2019   272 li  3  'mpu_armv7.h'
+      13:  Nov  9 17:02:02 2015  1229 li  3  'tm4c_cmsis.h'
+      14:  Apr 19 17:34:18 2020    57 li  2  'main.c'
+
+
+
+
+-------------------------------------------------------------------------------
+Section #7 .debug_info:
+
+   0x0: 140 bytes, version 4, abbrevs #32, addr size 4
+   0xb: + compile_unit (1)
+        |   name C:\Users\Marwan\Desktop\Work\playground\arm_programming\main.c
+        |   producer IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM
+        |   language C99
+        |   stmt_list #6
+        |   macro_info #48
+        |   use_UTF8 1
+        |   iar_default_encoding raw
+  0x85: |   base_type (3)
+        |     name int
+        |     byte_size 0x4
+        |     encoding signed
+  0x8c: |   volatile_type (4)
+        |     type 0x85
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #49 .rel.debug_info:
+
+  # Offset Relocation    Symbol              Section
+  - ------ ----------    ------              -------
+  0    0x6 2 R_ARM_ABS32 20 .debug_abbrev32  #32 .debug_abbrev
+  1   0x7c 2 R_ARM_ABS32 34 .debug_line6      #6 .debug_line
+  2   0x80 2 R_ARM_ABS32 35 .debug_macinfo48 #48 .debug_macinfo
+
+
+-------------------------------------------------------------------------------
+Section #8 .text:
+
+          $t:
+          `.text8`:
+          main:
+   0x0: 0xb510         PUSH   {R4, LR}
+   0x2: 0xf7ff 0xfffe  BL     mcu_setup
+   0x6: 0x2004         MOVS   R0, #4
+   0x8: 0x49ff         LDR.N  R1, `.text_4`  ; 0x4005'd010
+   0xa: 0x6008         STR    R0, [R1]
+          @c:
+   0xc: 0x4cff         LDR.N  R4, `.text_5`  ; 0x4005'd008
+   0xe: 0x2002         MOVS   R0, #2
+  0x10: 0x6020         STR    R0, [R4]
+  0x12: 0x48ff         LDR.N  R0, `.text_6`  ; 0xf'4240
+  0x14: 0xf7ff 0xfffe  BL     delay
+  0x18: 0x2000         MOVS   R0, #0
+  0x1a: 0x6020         STR    R0, [R4]
+  0x1c: 0x48ff         LDR.N  R0, `.text_7`  ; 0x7'a120
+  0x1e: 0xf7ff 0xfffe  BL     delay
+  0x22: 0xe7f3         B.N    @c
+          mcu_setup:                         ; Fragment start
+  0x24: 0x48ff         LDR.N  R0, `.text_8`  ; 0x400f'e108
+  0x26: 0x6801         LDR    R1, [R0]
+  0x28: 0xf051 0x0120  ORRS.W R1, R1, #32    ; 0x20
+  0x2c: 0x6001         STR    R1, [R0]
+  0x2e: 0x2020         MOVS   R0, #32        ; 0x20
+  0x30: 0x49ff         LDR.N  R1, `.text_9`  ; 0x400f'e06c
+  0x32: 0x6008         STR    R0, [R1]
+  0x34: 0x48ff         LDR.N  R0, `.text_10` ; 0x4005'd400
+  0x36: 0x6801         LDR    R1, [R0]
+  0x38: 0xf051 0x010e  ORRS.W R1, R1, #14    ; 0xe
+  0x3c: 0x6001         STR    R1, [R0]
+  0x3e: 0x48ff         LDR.N  R0, `.text_11` ; 0x4005'd51c
+  0x40: 0x6801         LDR    R1, [R0]
+  0x42: 0xf051 0x010e  ORRS.W R1, R1, #14    ; 0xe
+  0x46: 0x6001         STR    R1, [R0]
+  0x48: 0x4770         BX     LR
+  0x4a: 0x0000         MOVS   R0, R0
+          `$d.32`:                           ; Fragment start
+          `.text_4`:
+  0x4c: 0x4005'd010    DC32   0x4005'd010
+          `.text_5`:                         ; Fragment start
+  0x50: 0x4005'd008    DC32   0x4005'd008
+          `.text_6`:                         ; Fragment start
+  0x54: 0x000f'4240    DC32   0xf'4240
+          `.text_7`:                         ; Fragment start
+  0x58: 0x0007'a120    DC32   0x7'a120
+          `.text_8`:                         ; Fragment start
+  0x5c: 0x400f'e108    DC32   0x400f'e108
+          `.text_9`:                         ; Fragment start
+  0x60: 0x400f'e06c    DC32   0x400f'e06c
+          `.text_10`:                        ; Fragment start
+  0x64: 0x4005'd400    DC32   0x4005'd400
+          `.text_11`:                        ; Fragment start
+  0x68: 0x4005'd51c    DC32   0x4005'd51c
+          $t:                                ; Fragment start
+          delay:
+  0x6c: 0xb401         PUSH   {R0}
+          @6e:
+  0x6e: 0x9800         LDR    R0, [SP]
+  0x70: 0x2801         CMP    R0, #1
+  0x72: 0xdb03         BLT.N  @7c
+  0x74: 0x9800         LDR    R0, [SP]
+  0x76: 0x1e40         SUBS   R0, R0, #1
+  0x78: 0x9000         STR    R0, [SP]
+  0x7a: 0xe7f8         B.N    @6e
+          @7c:
+  0x7c: 0xb001         ADD    SP, SP, #0x4
+  0x7e: 0x4770         BX     LR
+
+
+-------------------------------------------------------------------------------
+Section #56 .rel.text:
+
+   # Offset Relocation        Symbol       Section
+   - ------ ----------        ------       -------
+   0    0x2 10 R_ARM_THM_CALL 38 mcu_setup #8 .text
+   1    0x8 11 R_ARM_THM_PC8   7 .text_4   #8 .text
+   2    0xc 11 R_ARM_THM_PC8   9 .text_5   #8 .text
+   3   0x12 11 R_ARM_THM_PC8  10 .text_6   #8 .text
+   4   0x14 10 R_ARM_THM_CALL 36 delay     #8 .text
+   5   0x1c 11 R_ARM_THM_PC8  11 .text_7   #8 .text
+   6   0x1e 10 R_ARM_THM_CALL 36 delay     #8 .text
+   7   0x24 11 R_ARM_THM_PC8  12 .text_8   #8 .text
+   8   0x30 11 R_ARM_THM_PC8  13 .text_9   #8 .text
+   9   0x34 11 R_ARM_THM_PC8  14 .text_10  #8 .text
+  10   0x3e 11 R_ARM_THM_PC8  15 .text_11  #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #9 .iar_vfe_header:
+
+  0x0:  00 00 00 00                                      ....
+
+  This file has been checked for virtual function elimination
+
+
+-------------------------------------------------------------------------------
+Section #10 .iar.stackusage:
+
+  Stack usage (v5) in #8 for main
+    Stack usage 8
+      Call mcu_setup
+    Stack usage 8
+      Call delay
+  Stack usage (v5) in #8:0x24 for mcu_setup
+    Stack usage 0
+      No call
+  Stack usage (v5) in #8:0x6c for delay
+    Stack usage 4
+      No call
+
+
+-------------------------------------------------------------------------------
+Section #17 .rel.iar.stackusage:
+
+  # Offset Relocation   Symbol       Section
+  - ------ ----------   ------       -------
+  0    0x0 0 R_ARM_NONE  3 .text8    #8 .text
+  1    0x1 0 R_ARM_NONE 37 main      #8 .text
+  2    0x6 0 R_ARM_NONE 38 mcu_setup #8 .text
+  3    0x9 0 R_ARM_NONE 36 delay     #8 .text
+  4    0xa 0 R_ARM_NONE  6 .text_3   #8 .text
+  5    0xb 0 R_ARM_NONE 38 mcu_setup #8 .text
+  6   0x10 0 R_ARM_NONE 16 .text_12  #8 .text
+  7   0x11 0 R_ARM_NONE 36 delay     #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #11 .iar.debug_line:
+
+  0x0: 130 bytes, version 1
+    3 functions
+      N0001:  ref  #13:0x91
+      N0002:  ref  #20:0x91
+      N0003:  ref  #25:0x91
+    0 types
+    t_org .text8
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 36
+      fun N0001 PRIMARY o0 [16:1-34:22]
+          set_step_kind 3
+          set_extra_lines 1
+          advance_line 6825
+          Special(pc 0, line 4, scol 1, ecol 1)
+        0 @0x0 Func begin([16:1-17:1])
+          Special(pc 2, line 2, scol 4, ecol 15)
+        1 @0x2 Statement([18:5-16])
+          direct_call N0002
+          Special(pc 0, line 0, scol 0, ecol -1)
+        2 @0x2 Direct call([18:5-15])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        3 @0x6 Return([18:5-15])
+          advance_end_col 10
+          Special(pc 0, line 3, scol 0, ecol 20)
+        4 @0x6 Statement([21:5-45])
+          advance_end_col -13
+          Special(pc 6, line 3, scol 0, ecol -20)
+        5 @0xc Statement([24:5-12])
+          advance_end_col 15
+          Special(pc 0, line 4, scol 4, ecol 20)
+        6 @0xc Statement([28:9-47])
+          advance_end_col -4
+          Special(pc 6, line 2, scol 0, ecol -20)
+        7 @0x12 Statement([30:9-23])
+          direct_call N0003
+          Special(pc 2, line 0, scol 0, ecol -1)
+        8 @0x14 Direct call([30:9-22])
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+        9 @0x18 Return([30:9-22])
+          Special(pc 0, line 2, scol 0, ecol 19)
+       10 @0x18 Statement([32:9-41])
+          Special(pc 4, line 2, scol 0, ecol -19)
+       11 @0x1c Statement([34:9-22])
+          set_step_kind 4
+          Special(pc 2, line 0, scol 0, ecol -1)
+       12 @0x1e Direct call([34:9-21])
+          clear_reachable
+          add_reachable 5
+          set_step_kind 12
+          Special(pc 4, line 0, scol 0, ecol 0)
+       13 @0x22 Return([34:9-21])
+
+
+-------------------------------------------------------------------------------
+Section #51 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32  3 .text8         #8 .text
+  1    0xf 2 R_ARM_ABS32 25 .debug_info13 #13 .debug_info
+  2   0x14 2 R_ARM_ABS32 29 .debug_info20 #20 .debug_info
+  3   0x19 2 R_ARM_ABS32 33 .debug_info25 #25 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #12 .debug_line:
+
+  0x0: 120 bytes, utf8, version 2, 86 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'C:\Users\Marwan\Desktop\Work\playground\arm_programming'
+
+    Files:
+      1:  Apr 19 17:34:18 2020  57 li  1  'main.c'
+
+         set_address .text8
+         set_column 1
+         advance_line 12
+         special(0x0, 4)
+     0x0 [17:1]
+         set_column 5
+         special(0x2, 1)
+     0x2 [18:5]
+         special(0x4, 3)
+     0x6 [21:5]
+         special(0x6, 3)
+     0xc [24:5]
+         set_column 9
+         special(0x0, 4)
+     0xc [28:9]
+         special(0x6, 2)
+    0x12 [30:9]
+         special(0x6, 2)
+    0x18 [32:9]
+         special(0x4, 2)
+    0x1c [34:9]
+         advance_pc 0x8
+         end_sequence
+    0x24
+
+
+-------------------------------------------------------------------------------
+Section #50 .rel.debug_line:
+
+  # Offset Relocation    Symbol   Section
+  - ------ ----------    ------   -------
+  0   0x63 2 R_ARM_ABS32 3 .text8 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #13 .debug_info:
+
+   0x0: 174 bytes, version 4, abbrevs #32, addr size 4
+   0xb: + compile_unit (2)
+        |   name C:\Users\Marwan\Desktop\Work\playground\arm_programming\main.c
+        |   producer IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM
+        |   language C99
+        |   low_pc .text8
+        |   high_pc 0x24
+        |   stmt_list #12
+        |   iar_stmt_list #11
+        |   iar_source_line_sequence #7:0xb
+        |   use_UTF8 1
+        |   iar_default_encoding raw
+  0x91: | + subprogram (5)
+        | |   sibling 0xb1
+        | |   name main
+        | |   decl_file 1
+        | |   decl_line 16
+        | |   decl_column 5
+        | |   iar_decl_end_column 8
+        | |   external 1
+        | |   type #7:0x85
+        | |   frame_base #29 <0x0-0x2:[breg13 0]|0x2-0x24:[breg13 8]>
+        | |   low_pc .text8
+        | |   high_pc .text8 + 0x24
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #33 .rel.debug_info:
+
+  # Offset Relocation    Symbol               Section
+  - ------ ----------    ------               -------
+  0    0x6 2 R_ARM_ABS32 20 .debug_abbrev32   #32 .debug_abbrev
+  1   0xa8 2 R_ARM_ABS32  3 .text8             #8 .text
+  2   0xac 2 R_ARM_ABS32  3 .text8             #8 .text
+  3   0x7c 2 R_ARM_ABS32  3 .text8             #8 .text
+  4   0xa0 2 R_ARM_ABS32 21 .debug_info7       #7 .debug_info
+  5   0xa4 2 R_ARM_ABS32 22 .debug_loc29      #29 .debug_loc
+  6   0x84 2 R_ARM_ABS32 23 .debug_line12     #12 .debug_line
+  7   0x88 2 R_ARM_ABS32 24 .iar.debug_line11 #11 .iar.debug_line
+  8   0x8c 2 R_ARM_ABS32 21 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #14 .debug_frame:
+
+  FDE 0x0: 19 bytes, CIE #15, loc .text8, range 0x24
+    0x0 advance_loc       0x2
+    0x2 def_cfa_offset_sf 0x8
+        offset            R4 -0x8
+        offset            R14 -0x4
+
+
+-------------------------------------------------------------------------------
+Section #16 .rel.debug_frame:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x4 2 R_ARM_ABS32 4 .debug_frame15 #15 .debug_frame
+  1    0x8 2 R_ARM_ABS32 3 .text8          #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #15 .debug_frame:
+
+  CIE 0x0: 88 bytes, version = 3, caf 0x2, daf -0x4, ret R14
+    0x0 def_cfa_sf R13 0x0
+        undefined  R0
+        undefined  R1
+        undefined  R2
+        undefined  R3
+        same_value R4
+        same_value R5
+        same_value R6
+        same_value R7
+        same_value R8
+        same_value R9
+        same_value R10
+        same_value R11
+        undefined  R12
+        same_value R14
+        undefined  D0
+        undefined  D1
+        undefined  D2
+        undefined  D3
+        undefined  D4
+        undefined  D5
+        undefined  D6
+        undefined  D7
+        same_value D8
+        same_value D9
+        same_value D10
+        same_value D11
+        same_value D12
+        same_value D13
+        same_value D14
+        same_value D15
+
+
+-------------------------------------------------------------------------------
+Section #18 .iar.debug_line:
+
+  0x0: 84 bytes, version 1
+    1 function
+      N0001:  ref  #20:0x91
+    0 types
+    t_org .text_3
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 38
+      fun N0001 PRIMARY o1 [41:1-50:1]
+          set_step_kind 3
+          advance_line 6850
+          Special(pc 0, line 4, scol 1, ecol 17)
+        0 @0x0 Func begin([41:1-17])
+          Special(pc 0, line 2, scol 4, ecol 15)
+        1 @0x0 Statement([43:5-32])
+          Special(pc 10, line 2, scol 0, ecol 2)
+        2 @0xa Statement([45:5-34])
+          Special(pc 6, line 2, scol 0, ecol -2)
+        3 @0x10 Statement([47:5-32])
+          Special(pc 10, line 2, scol 0, ecol 0)
+        4 @0x1a Statement([49:5-32])
+          clear_reachable
+          add_reachable exit
+          advance_end_col -11
+          Special(pc 10, line 1, scol -4, ecol -20)
+        5 @0x24 Statement([50:1-1])
+
+
+-------------------------------------------------------------------------------
+Section #53 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32  6 .text_3        #8 .text
+  1    0xf 2 R_ARM_ABS32 29 .debug_info20 #20 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #19 .debug_line:
+
+  0x0: 118 bytes, utf8, version 2, 86 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'C:\Users\Marwan\Desktop\Work\playground\arm_programming'
+
+    Files:
+      1:  Apr 19 17:34:18 2020  57 li  1  'main.c'
+
+         set_address .text_3
+         set_column 17
+         advance_line 36
+         special(0x0, 4)
+     0x0 [41:17]
+         set_column 5
+         special(0x0, 2)
+     0x0 [43:5]
+         special(0xa, 2)
+     0xa [45:5]
+         special(0x6, 2)
+    0x10 [47:5]
+         special(0xa, 2)
+    0x1a [49:5]
+         set_column 1
+         special(0xa, 1)
+    0x24 [50:1]
+         advance_pc 0x24
+         end_sequence
+    0x48
+
+
+-------------------------------------------------------------------------------
+Section #52 .rel.debug_line:
+
+  # Offset Relocation    Symbol    Section
+  - ------ ----------    ------    -------
+  0   0x63 2 R_ARM_ABS32 6 .text_3 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #20 .debug_info:
+
+   0x0: 175 bytes, version 4, abbrevs #32, addr size 4
+   0xb: + compile_unit (2)
+        |   name C:\Users\Marwan\Desktop\Work\playground\arm_programming\main.c
+        |   producer IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM
+        |   language C99
+        |   low_pc .text_3
+        |   high_pc 0x26
+        |   stmt_list #19
+        |   iar_stmt_list #18
+        |   iar_source_line_sequence #7:0xb
+        |   use_UTF8 1
+        |   iar_default_encoding raw
+  0x91: | + subprogram (6)
+        | |   sibling 0xb2
+        | |   name mcu_setup
+        | |   decl_file 1
+        | |   decl_line 41
+        | |   decl_column 6
+        | |   iar_decl_end_column 14
+        | |   external 1
+        | |   frame_base #30 <0x0-0x26:[breg13 0]>
+        | |   low_pc .text_3
+        | |   high_pc .text_3 + 0x26
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #38 .rel.debug_info:
+
+  # Offset Relocation    Symbol               Section
+  - ------ ----------    ------               -------
+  0    0x6 2 R_ARM_ABS32 20 .debug_abbrev32   #32 .debug_abbrev
+  1   0xa9 2 R_ARM_ABS32  6 .text_3            #8 .text
+  2   0xad 2 R_ARM_ABS32  6 .text_3            #8 .text
+  3   0x7c 2 R_ARM_ABS32  6 .text_3            #8 .text
+  4   0xa5 2 R_ARM_ABS32 26 .debug_loc30      #30 .debug_loc
+  5   0x84 2 R_ARM_ABS32 27 .debug_line19     #19 .debug_line
+  6   0x88 2 R_ARM_ABS32 28 .iar.debug_line18 #18 .iar.debug_line
+  7   0x8c 2 R_ARM_ABS32 21 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #21 .debug_frame:
+
+  FDE 0x0: 12 bytes, CIE #15, loc .text_3, range 0x26
+
+
+-------------------------------------------------------------------------------
+Section #22 .rel.debug_frame:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x4 2 R_ARM_ABS32 4 .debug_frame15 #15 .debug_frame
+  1    0x8 2 R_ARM_ABS32 6 .text_3         #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #23 .iar.debug_line:
+
+  0x0: 85 bytes, version 1
+    1 function
+      N0001:  ref  #25:0x91
+    0 types
+    t_org .text_12
+    t_statement_info COMMON
+      id = 0, version = 1, code factor = 2, line base = 0,
+      line range = 5, start col base = -8, start col range = 17,
+      end col base = -20, end col range = 41, opcode base = 14
+    t_statement_info DATA
+      code factor 2, total bytes 20
+      fun N0001 PRIMARY o2 [53:1-57:1]
+          set_step_kind 3
+          advance_line 6862
+          advance_end_col 16
+          Special(pc 0, line 4, scol 1, ecol 20)
+        0 @0x0 Func begin([53:1-36])
+          add_reachable 3
+          Special(pc 2, line 1, scol 4, ecol -11)
+        1 @0x2 Statement([54:5-25])
+          clear_reachable
+          add_reachable 1
+          Special(pc 6, line 1, scol 4, ecol -4)
+        2 @0x8 Statement([55:9-21])
+          clear_reachable
+          add_reachable exit
+          Special(pc 8, line 2, scol -8, ecol -20)
+        3 @0x10 Statement([57:1-1])
+
+
+-------------------------------------------------------------------------------
+Section #55 .rel.iar.debug_line:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 16 .text_12       #8 .text
+  1    0xf 2 R_ARM_ABS32 33 .debug_info25 #25 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #24 .debug_line:
+
+  0x0: 118 bytes, utf8, version 2, 86 prologue bytes
+    code factor 2, line base 0, line range 5, opcode base 10
+    opcode lengths [0 1 1 1 1 0 0 0 0]
+
+    Directories:
+      1:  'C:\Users\Marwan\Desktop\Work\playground\arm_programming'
+
+    Files:
+      1:  Apr 19 17:34:18 2020  57 li  1  'main.c'
+
+         set_address .text_12
+         set_column 36
+         advance_line 48
+         special(0x0, 4)
+     0x0 [53:36]
+         set_column 5
+         special(0x2, 1)
+     0x2 [54:5]
+         set_column 9
+         special(0x6, 1)
+     0x8 [55:9]
+         set_column 1
+         special(0x8, 2)
+    0x10 [57:1]
+         advance_pc 0x4
+         end_sequence
+    0x14
+
+
+-------------------------------------------------------------------------------
+Section #54 .rel.debug_line:
+
+  # Offset Relocation    Symbol      Section
+  - ------ ----------    ------      -------
+  0   0x63 2 R_ARM_ABS32 16 .text_12 #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #25 .debug_info:
+
+   0x0: 195 bytes, version 4, abbrevs #32, addr size 4
+   0xb: + compile_unit (2)
+        |   name C:\Users\Marwan\Desktop\Work\playground\arm_programming\main.c
+        |   producer IAR ANSI C/C++ Compiler V8.50.1.245/W32 for ARM
+        |   language C99
+        |   low_pc .text_12
+        |   high_pc 0x14
+        |   stmt_list #24
+        |   iar_stmt_list #23
+        |   iar_source_line_sequence #7:0xb
+        |   use_UTF8 1
+        |   iar_default_encoding raw
+  0x91: | + subprogram (6)
+        | |   sibling 0xc6
+        | |   name delay
+        | |   decl_file 1
+        | |   decl_line 53
+        | |   decl_column 6
+        | |   iar_decl_end_column 10
+        | |   external 1
+        | |   frame_base #31 <0x0-0x2:[breg13 0]|0x2-0x12:[breg13 4...>
+        | |   low_pc .text_12
+        | |   high_pc .text_12 + 0x14
+  0xad: | |   formal_parameter (7)
+        | |     name iterations
+        | |     decl_file 1
+        | |     decl_line 53
+        | |     decl_column 25
+        | |     iar_decl_end_column 34
+        | |     type #7:0x8c
+        | |     location #31:0x2c <0x0-0x2:[reg0]|0x2-0x14:[fbreg -4]>
+        | +-- 0
+        +-- 0
+
+
+-------------------------------------------------------------------------------
+Section #43 .rel.debug_info:
+
+  # Offset Relocation    Symbol               Section
+  - ------ ----------    ------               -------
+  0    0x6 2 R_ARM_ABS32 20 .debug_abbrev32   #32 .debug_abbrev
+  1   0xa5 2 R_ARM_ABS32 16 .text_12           #8 .text
+  2   0xa9 2 R_ARM_ABS32 16 .text_12           #8 .text
+  3   0x7c 2 R_ARM_ABS32 16 .text_12           #8 .text
+  4   0xa1 2 R_ARM_ABS32 30 .debug_loc31      #31 .debug_loc
+  5   0xbd 2 R_ARM_ABS32 21 .debug_info7       #7 .debug_info
+  6   0xc1 2 R_ARM_ABS32 30 .debug_loc31      #31 .debug_loc
+  7   0x84 2 R_ARM_ABS32 31 .debug_line24     #24 .debug_line
+  8   0x88 2 R_ARM_ABS32 32 .iar.debug_line23 #23 .iar.debug_line
+  9   0x8c 2 R_ARM_ABS32 21 .debug_info7       #7 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #26 .debug_frame:
+
+  FDE 0x0: 18 bytes, CIE #15, loc .text_12, range 0x14
+     0x0 advance_loc       0x2
+     0x2 def_cfa_offset_sf 0x4
+         advance_loc       0x10
+    0x12 def_cfa_offset_sf 0x0
+
+
+-------------------------------------------------------------------------------
+Section #27 .rel.debug_frame:
+
+  # Offset Relocation    Symbol            Section
+  - ------ ----------    ------            -------
+  0    0x4 2 R_ARM_ABS32  4 .debug_frame15 #15 .debug_frame
+  1    0x8 2 R_ARM_ABS32 16 .text_12        #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #28 .ARM.attributes:
+
+  Vendor: aeabi
+    Tag_conformance          "2.10"
+    Tag_CPU_name             "Cortex-M4"
+    Tag_CPU_arch             ARM v7E-M (13)
+    Tag_CPU_arch_profile     Microcontroller profile (M)
+    Tag_THUMB_ISA_use        Allows 16-bit and 32-bit Thumb instructions (2)
+    Tag_FP_arch              Allows FPv4 instructions (D0-D15, S0-S31 only) (6)
+    Tag_PCS_config           Bare platform (1)
+    Tag_ABI_PCS_GOT_use      Directly addressed imported data (1)
+    Tag_ABI_PCS_wchar_t      Size of wchar_t is 4 (4)
+    Tag_ABI_align_needed     Depends on 8-byte alignment of 8-byte data (1)
+    Tag_ABI_align_preserved  Preserves 8-byte alignment of 8-byte data (1)
+    Tag_ABI_HardFP_use       SP VFP instructions only (1)
+    Tag_ABI_VFP_args         No AAPCS variant dependent functions is exported/imported (3)
+    Tag_CPU_unaligned_access Allows v6-style unaligned data accessess (1)
+    Tag_DIV_use              No use of SDIV or UDIV (1)
+
+  Vendor: iar
+  0x0:  02 02 04 01 08 02 0a 02 0e 01 14 01              ............
+
+
+
+-------------------------------------------------------------------------------
+Section #29 .debug_loc:
+
+  0x0 0x0 -  0x2: [breg13 0]
+      0x2 - 0x24: [breg13 8]
+      End
+
+
+-------------------------------------------------------------------------------
+Section #30 .debug_loc:
+
+  0x0 0x0 - 0x26: [breg13 0]
+      End
+
+
+-------------------------------------------------------------------------------
+Section #31 .debug_loc:
+
+   0x0  0x0 -  0x2: [breg13 0]
+        0x2 - 0x12: [breg13 4]
+       0x12 - 0x14: [breg13 0]
+       End
+  0x2c  0x0 -  0x2: [reg0]
+        0x2 - 0x14: [fbreg -4]
+       End
+
+
+-------------------------------------------------------------------------------
+Section #32 .debug_abbrev:
+
+  7 formal_parameter [no children]
+      name                     string
+      decl_file                udata
+      decl_line                udata
+      decl_column              udata
+      iar_decl_end_column      udata
+      type                     ref_addr
+      location                 sec_offset
+  1 compile_unit [has children]
+      name                     string
+      producer                 string
+      language                 data1
+      stmt_list                sec_offset
+      macro_info               sec_offset
+      use_UTF8                 flag_present
+      iar_default_encoding     data1
+  2 compile_unit [has children]
+      name                     string
+      producer                 string
+      language                 data1
+      low_pc                   addr
+      high_pc                  data4
+      stmt_list                sec_offset
+      iar_stmt_list            sec_offset
+      iar_source_line_sequence ref_addr
+      use_UTF8                 flag_present
+      iar_default_encoding     data1
+  3 base_type [no children]
+      name                     string
+      byte_size                udata
+      encoding                 data1
+  6 subprogram [has children]
+      sibling                  ref4
+      name                     string
+      decl_file                udata
+      decl_line                udata
+      decl_column              udata
+      iar_decl_end_column      udata
+      external                 flag
+      frame_base               sec_offset
+      low_pc                   addr
+      high_pc                  addr
+  5 subprogram [has children]
+      sibling                  ref4
+      name                     string
+      decl_file                udata
+      decl_line                udata
+      decl_column              udata
+      iar_decl_end_column      udata
+      external                 flag
+      type                     ref_addr
+      frame_base               sec_offset
+      low_pc                   addr
+      high_pc                  addr
+  4 volatile_type [no children]
+      type                     ref_udata
+
+
+-------------------------------------------------------------------------------
+Section #34 .debug_pubnames:
+
+  0x0: 23 bytes, version 2, for unit at #13, size 178
+
+    Offset Name
+    ------ ----
+      0x91 main
+
+
+-------------------------------------------------------------------------------
+Section #35 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 25 .debug_info13 #13 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #36 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #13, address size 4, segment size 0
+
+    Address Length
+    ------- ------
+     .text8   0x24
+
+
+-------------------------------------------------------------------------------
+Section #37 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 25 .debug_info13 #13 .debug_info
+  1    0xc 2 R_ARM_ABS32  3 .text8         #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #39 .debug_pubnames:
+
+  0x0: 28 bytes, version 2, for unit at #20, size 179
+
+    Offset Name
+    ------ ----
+      0x91 mcu_setup
+
+
+-------------------------------------------------------------------------------
+Section #40 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 29 .debug_info20 #20 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #41 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #20, address size 4, segment size 0
+
+    Address Length
+    ------- ------
+    .text_3   0x26
+
+
+-------------------------------------------------------------------------------
+Section #42 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 29 .debug_info20 #20 .debug_info
+  1    0xc 2 R_ARM_ABS32  6 .text_3        #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #44 .debug_pubnames:
+
+  0x0: 24 bytes, version 2, for unit at #25, size 199
+
+    Offset Name
+    ------ ----
+      0x91 delay
+
+
+-------------------------------------------------------------------------------
+Section #45 .rel.debug_pubnames:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 33 .debug_info25 #25 .debug_info
+
+
+-------------------------------------------------------------------------------
+Section #46 .debug_aranges:
+
+  0x0: 24 bytes, version 2, for unit at #25, address size 4, segment size 0
+
+     Address Length
+     ------- ------
+    .text_12   0x14
+
+
+-------------------------------------------------------------------------------
+Section #47 .rel.debug_aranges:
+
+  # Offset Relocation    Symbol           Section
+  - ------ ----------    ------           -------
+  0    0x6 2 R_ARM_ABS32 33 .debug_info25 #25 .debug_info
+  1    0xc 2 R_ARM_ABS32 16 .text_12       #8 .text
+
+
+-------------------------------------------------------------------------------
+Section #48 .debug_macinfo:
+
+  0x0:
+    Include file 14 at line 0
+      Include file 5 at line 1
+        Include file 6 at line 10
+        End include
+        Include file 7 at line 11
+          Include file 2 at line 42
+            Include file 1 at line 39
+            End include
+            Include file 3 at line 50
+            End include
+          End include
+        End include
+      End include
+      Include file 13 at line 2
+        Include file 11 at line 346
+          Include file 10 at line 63
+          End include
+          Include file 8 at line 162
+            Include file 9 at line 61
+              Include file 4 at line 289
+              End include
+            End include
+          End include
+          Include file 12 at line 1955
+          End include
+        End include
+      End include
+    End include
+
+
+-------------------------------------------------------------------------------
+Section #57 .iar.fraginfo:
+
+  Fragment Start Align
+  -------------- -----
+  .text8           0x2
+  .text_3          0x2
+  .text_4          0x4
+  .text_5          0x4
+  .text_6          0x4
+  .text_7          0x4
+  .text_8          0x4
+  .text_9          0x4
+  .text_10         0x4
+  .text_11         0x4
+  .text_12         0x2
+
+
+-------------------------------------------------------------------------------
+Section #58 .rel.iar.fraginfo:
+
+   # Offset Relocation   Symbol      Section
+   - ------ ----------   ------      -------
+   0    0x2 0 R_ARM_NONE  3 .text8   #8 .text
+   1    0x3 0 R_ARM_NONE  6 .text_3  #8 .text
+   2    0x4 0 R_ARM_NONE  7 .text_4  #8 .text
+   3    0x5 0 R_ARM_NONE  9 .text_5  #8 .text
+   4    0x6 0 R_ARM_NONE 10 .text_6  #8 .text
+   5    0x7 0 R_ARM_NONE 11 .text_7  #8 .text
+   6    0x8 0 R_ARM_NONE 12 .text_8  #8 .text
+   7    0x9 0 R_ARM_NONE 13 .text_9  #8 .text
+   8    0xa 0 R_ARM_NONE 14 .text_10 #8 .text
+   9    0xb 0 R_ARM_NONE 15 .text_11 #8 .text
+  10    0xc 0 R_ARM_NONE 16 .text_12 #8 .text
+
+Errors: none
+Warnings: none
