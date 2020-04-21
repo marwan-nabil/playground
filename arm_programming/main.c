@@ -1,15 +1,11 @@
 #include <stdint.h>
+/* defines structures corresponding to memory mapped registers */
 #include "CMSIS/tm4c_cmsis.h"
-
-/* LED bits positions on the GPIO port */
-#define RED_LED     (1U<<1)
-#define BLUE_LED    (1U<<2)
-#define GREEN_LED   (1U<<3)
+#include "bsp.h"
+#include "intrinsics.h"
 
 /* powers up GPIO port F and configures it for output */
 void mcu_setup(void);
-/* introduces a spin-lock delay */
-void delay(volatile int iterations);
 
 
 /* entry point */
@@ -17,21 +13,9 @@ int main()
 {
     mcu_setup();
     
-    // turn on the blue led
-    GPIOF_HS->DATA_Bits[BLUE_LED] = BLUE_LED;
-    
     // blink the red led
     while(1)
-    {
-        // turn on
-        // use bit-addressing with array indexing syntax
-        GPIOF_HS->DATA_Bits[RED_LED] = RED_LED;
-        // wait a little while
-        delay(1000000);
-        // turn off
-        GPIOF_HS->DATA_Bits[RED_LED] = 0;
-        // wait a little while
-        delay(500000);
+    {     
     }
     
     // return 0;
@@ -47,11 +31,14 @@ void mcu_setup(){
     GPIOF_HS->DIR |= 0x0000000e;
     // set GPIO port F's digital enable for 3 bits
     GPIOF_HS->DEN |= 0x0000000e;
-}
-
-
-void delay(volatile int iterations){
-    while(iterations > 0){
-        --iterations;
-    }
+    
+    // setup the system tick timer
+    // this timer will call the SysTick_Handler ISR each tick
+    // half a second timer value
+    SysTick->LOAD   = SYS_CLOCK_HZ / 2U - 1U;
+    SysTick->VAL    = 0U;
+    SysTick->CTRL   = (1U << 2) | (1U << 1) | 1U;
+    
+    // enable interrups using this intrinsic (clearing PRIMASK bit)
+    __enable_interrupt();
 }

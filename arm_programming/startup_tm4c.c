@@ -4,13 +4,14 @@
 // symbol defined by linker, where it created the stack
 extern int CSTACK$$Limit;
 
-// startup code procedure
+// startup code procedure, defined in some library
+// the linker will find it
 extern void __iar_program_start(void);
 
 // stub handler for ISRs that lack definitions
 void Unused_Handler(void);
 
-
+// the vector table symbol, with explicit section placement annotation
 const int __vector_table[] @ ".intvec" = {
     (int) &CSTACK$$Limit,
     (int) &__iar_program_start,
@@ -200,7 +201,10 @@ __stackless void UsageFault_Handler(void)
 }
 
 /*  definitions for other interrupt handlers 
-    using weak aliases (compiler feature) */
+    using weak aliases (compiler feature) 
+    meaning: if the linker fails to resolve
+    these symbols, it will use the specified
+    symbol instead, as a last resort */
 
 __stackless void Unused_Handler(void)
 {
